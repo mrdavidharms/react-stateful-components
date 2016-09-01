@@ -1,7 +1,7 @@
 // StatefulComponentExample.js
-import React from 'react';
+import React, {Component} from 'react';
 
-class StatefulComponentExample extends React.Component {
+class StatefulComponentExample extends Component {
   constructor(props) {
     super(props);
     this.state = {
